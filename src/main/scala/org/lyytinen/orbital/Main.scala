@@ -24,7 +24,7 @@ object Main {
   }
 
   /**
-    * Reads the both the starting and end point from the data file.
+    * Reads both the start and endpoint from the data file.
     *
     * To avoid handling them as special cases, they are also modeled as satellites.
     *
