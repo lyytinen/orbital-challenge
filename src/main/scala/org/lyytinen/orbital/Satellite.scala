@@ -16,7 +16,7 @@ class Satellite(val id: String, val location: Point, val altitude: Double) {
   /**
     * The distance to earth's center.
     */
-  val radius = Constants.EarthsRadius + altitude;
+  val radius = EarthsRadius + altitude;
 
   /**
     * The angle of the horizon.
